@@ -70,10 +70,20 @@
         android:id="@+id/choicePolFragment"
         android:name="com.example.helpmate.EdPol.ChoicePolFragment"
         android:label="fragment_choice_pol"
-        tools:layout="@layout/fragment_choice_pol" />
+        tools:layout="@layout/fragment_choice_pol" >
+        <action
+            android:id="@+id/action_choicePolFragment_to_indexEdpol"
+            app:destination="@id/indexEdpol"
+            app:popUpTo="@id/choicePolFragment" />
+    </fragment>
     <fragment
         android:id="@+id/choiceIcFragment"
         android:name="com.example.helpmate.Icse.ChoiceIcFragment"
         android:label="fragment_choice_ic"
         tools:layout="@layout/fragment_choice_ic" />
+    <fragment
+        android:id="@+id/indexEdpol"
+        android:name="com.example.helpmate.EdPol.IndexEdpol"
+        android:label="fragment_index_edpol"
+        tools:layout="@layout/fragment_index_edpol" />
 </navigation>

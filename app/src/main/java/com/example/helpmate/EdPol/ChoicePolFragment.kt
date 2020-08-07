@@ -1,4 +1,5 @@
 package com.example.helpmate.EdPol
+
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -21,10 +22,10 @@ class ChoicePolFragment : Fragment() {
 //        view.vid.setOnClickListener {
 //            Navigation.findNavController(view).navigate(R.id.action_choicePolFragment_to_videoActivity)
 //        }
-//
-//        view.doc.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.action_choicePolFragment_to_indexEdpol)
-//        }
+
+        view.doc.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_choicePolFragment_to_indexEdpol)
+        }
 
         return view
 
