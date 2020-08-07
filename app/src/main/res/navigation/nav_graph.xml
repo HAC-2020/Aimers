@@ -24,10 +24,18 @@
         <action
             android:id="@+id/action_loginFragment_to_indexEng"
             app:destination="@id/indexEng" />
+        <action
+            android:id="@+id/action_loginFragment_to_indexMed"
+            app:destination="@id/indexMed" />
     </fragment>
     <fragment
         android:id="@+id/indexEng"
         android:name="com.example.helpmate.Eng.IndexEng"
         android:label="fragment_index_eng"
         tools:layout="@layout/fragment_index_eng" />
+    <fragment
+        android:id="@+id/indexMed"
+        android:name="com.example.helpmate.Med.IndexMed"
+        android:label="fragment_index_med"
+        tools:layout="@layout/fragment_index_med" />
 </navigation>
