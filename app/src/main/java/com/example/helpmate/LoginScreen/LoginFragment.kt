@@ -18,7 +18,15 @@ class LoginFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.fragment_login, container, false)
-
+        view.btn_isc.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_loginFragment_to_choiceIcFragment)
+        }
+        view.btn_cbse.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_loginFragment_to_choiceCbFragment)
+        }
+        view.btn_edpol.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_loginFragment_to_choicePolFragment)
+        }
         view.btn_eng.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_loginFragment_to_indexEng)
         }

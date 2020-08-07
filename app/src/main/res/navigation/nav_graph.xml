@@ -23,13 +23,28 @@
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_loginFragment_to_indexEng"
-            app:destination="@id/indexEng" />
+            app:destination="@id/indexEng"
+            app:popUpTo="@id/loginFragment" />
         <action
             android:id="@+id/action_loginFragment_to_indexMed"
-            app:destination="@id/indexMed" />
+            app:destination="@id/indexMed"
+            app:popUpTo="@id/loginFragment" />
         <action
             android:id="@+id/action_loginFragment_to_indexLaw"
-            app:destination="@id/indexLaw" />
+            app:destination="@id/indexLaw"
+            app:popUpTo="@id/loginFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_choicePolFragment"
+            app:destination="@id/choicePolFragment"
+            app:popUpTo="@id/loginFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_choiceCbFragment"
+            app:destination="@id/choiceCbFragment"
+            app:popUpTo="@id/loginFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_choiceIcFragment"
+            app:destination="@id/choiceIcFragment"
+            app:popUpTo="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/indexEng"
@@ -46,4 +61,19 @@
         android:name="com.example.helpmate.Law.IndexLaw"
         android:label="fragment_index_law"
         tools:layout="@layout/fragment_index_law" />
+    <fragment
+        android:id="@+id/choiceCbFragment"
+        android:name="com.example.helpmate.Cbse.ChoiceCbFragment"
+        android:label="fragment_choice_cb"
+        tools:layout="@layout/fragment_choice_cb" />
+    <fragment
+        android:id="@+id/choicePolFragment"
+        android:name="com.example.helpmate.EdPol.ChoicePolFragment"
+        android:label="fragment_choice_pol"
+        tools:layout="@layout/fragment_choice_pol" />
+    <fragment
+        android:id="@+id/choiceIcFragment"
+        android:name="com.example.helpmate.Icse.ChoiceIcFragment"
+        android:label="fragment_choice_ic"
+        tools:layout="@layout/fragment_choice_ic" />
 </navigation>
