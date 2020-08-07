@@ -27,6 +27,9 @@
         <action
             android:id="@+id/action_loginFragment_to_indexMed"
             app:destination="@id/indexMed" />
+        <action
+            android:id="@+id/action_loginFragment_to_indexLaw"
+            app:destination="@id/indexLaw" />
     </fragment>
     <fragment
         android:id="@+id/indexEng"
@@ -38,4 +41,9 @@
         android:name="com.example.helpmate.Med.IndexMed"
         android:label="fragment_index_med"
         tools:layout="@layout/fragment_index_med" />
+    <fragment
+        android:id="@+id/indexLaw"
+        android:name="com.example.helpmate.Law.IndexLaw"
+        android:label="fragment_index_law"
+        tools:layout="@layout/fragment_index_law" />
 </navigation>

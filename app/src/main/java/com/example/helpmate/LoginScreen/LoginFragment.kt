@@ -25,6 +25,9 @@ class LoginFragment : Fragment() {
         view.btn_med.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_loginFragment_to_indexMed)
         }
+        view.btn_law.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_loginFragment_to_indexLaw)
+        }
         return view
     }
 
