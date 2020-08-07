@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".Eng.IndexEng">
+    tools:context=".Law.IndexLaw">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginRight="20dp">
 
                 <TextView
@@ -28,8 +28,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Exam Details"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                     android:textColor="#131313"
+                    android:textSize="30sp"
                     android:textStyle="bold" />
 
             </RelativeLayout>
@@ -56,7 +56,7 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#64B5F6"
+                        android:background="#CDBA68C8"
                         android:orientation="vertical"
                         android:padding="8dp">
 
@@ -64,16 +64,16 @@
                             android:id="@+id/logo1"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/mains" />
+                            android:src="@drawable/clat" />
 
                         <TextView
                             android:id="@+id/head1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="230dp"
+                            android:layout_marginLeft="250dp"
                             android:layout_marginTop="15dp"
                             android:layout_toRightOf="@+id/logo1"
-                            android:text="JEE MAINS"
+                            android:text="CLAT"
                             android:textAppearance="@style/TextAppearance.AppCompat.Large"
                             android:textColor="#000000"
                             android:textStyle="bold" />
@@ -86,7 +86,7 @@
                             android:layout_marginLeft="200dp"
                             android:layout_marginTop="5dp"
                             android:text="Exam Date:"
-                            android:textSize="20sp"
+                            android:textSize="14sp"
                             android:textColor="#000000" />
 
                         <TextView
@@ -96,8 +96,67 @@
                             android:layout_marginLeft="180dp"
                             android:layout_marginTop="5dp"
                             android:layout_toRightOf="@id/shead1"
-                            android:text="1- 6 sept 2020"
-                            android:textSize="20sp"
+                            android:text="To be Announce"
+                            android:textSize="14sp"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:elevation="6dp"
+                    app:cardBackgroundColor="#AED581"
+                    app:cardCornerRadius="12dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#64B5F6"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:id="@+id/logo2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/ailet" />
+
+                        <TextView
+                            android:id="@+id/head2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="250dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_toRightOf="@+id/logo2"
+                            android:text="AILET"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/shead2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/head2"
+                            android:layout_marginLeft="200dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Exam Date:"
+                            android:textSize="15sp"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/head2"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@id/shead2"
+                            android:text="03/08/2020"
+                            android:textSize="15sp"
                             android:textColor="#000000" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
@@ -119,77 +178,19 @@
                         android:padding="8dp">
 
                         <ImageView
-                            android:id="@+id/logo2"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/adv" />
-
-                        <TextView
-                            android:id="@+id/head2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="210dp"
-                            android:layout_marginTop="15dp"
-                            android:layout_toRightOf="@+id/logo2"
-                            android:text="JEE ADVANCED"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                            android:textColor="#000000"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/shead2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/head2"
-                            android:layout_marginLeft="200dp"
-                            android:layout_marginTop="5dp"
-                            android:text="Exam Date:"
-                            android:textSize="20sp"
-                            android:textColor="#000000" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/head2"
-                            android:layout_marginLeft="180dp"
-                            android:layout_marginTop="5dp"
-                            android:layout_toRightOf="@id/shead2"
-                            android:text="27/09/2020"
-                            android:textSize="20sp"
-                            android:textColor="#000000" />
-                    </RelativeLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="12dp"
-                    android:elevation="6dp"
-                    app:cardCornerRadius="12dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#E6FF8A65"
-                        android:orientation="vertical"
-                        android:padding="8dp">
-
-                        <ImageView
                             android:id="@+id/logo3"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/bits" />
+                            android:src="@drawable/lsat" />
 
                         <TextView
                             android:id="@+id/head3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="200dp"
+                            android:layout_marginLeft="250dp"
                             android:layout_marginTop="15dp"
                             android:layout_toRightOf="@+id/logo3"
-                            android:text="BITS ENTRANCE"
+                            android:text="LSAT"
                             android:textAppearance="@style/TextAppearance.AppCompat.Large"
                             android:textColor="#000000"
                             android:textStyle="bold" />
@@ -202,7 +203,7 @@
                             android:layout_marginLeft="200dp"
                             android:layout_marginTop="5dp"
                             android:text="Exam Date:"
-                            android:textSize="20sp"
+                            android:textSize="14sp"
                             android:textColor="#000000" />
 
                         <TextView
@@ -212,8 +213,8 @@
                             android:layout_marginLeft="180dp"
                             android:layout_marginTop="5dp"
                             android:layout_toRightOf="@id/shead3"
-                            android:text="16- 18 sept 2020"
-                            android:textSize="20sp"
+                            android:text="19- 22 July 2020"
+                            android:textSize="14sp"
                             android:textColor="#000000" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
@@ -225,12 +226,12 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="12dp"
                     android:elevation="6dp"
+                    app:cardBackgroundColor="#E6FF8A65"
                     app:cardCornerRadius="12dp">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#CDBA68C8"
                         android:orientation="vertical"
                         android:padding="8dp">
 
@@ -238,7 +239,7 @@
                             android:id="@+id/logo4"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/comed" />
+                            android:src="@drawable/mhcet" />
 
                         <TextView
                             android:id="@+id/head4"
@@ -247,7 +248,7 @@
                             android:layout_marginLeft="250dp"
                             android:layout_marginTop="15dp"
                             android:layout_toRightOf="@+id/logo4"
-                            android:text="COMEDK"
+                            android:text="MH CET"
                             android:textAppearance="@style/TextAppearance.AppCompat.Large"
                             android:textColor="#000000"
                             android:textStyle="bold" />
@@ -260,7 +261,7 @@
                             android:layout_marginLeft="200dp"
                             android:layout_marginTop="5dp"
                             android:text="Exam Date:"
-                            android:textSize="20sp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                             android:textColor="#000000" />
 
                         <TextView
@@ -270,124 +271,8 @@
                             android:layout_marginLeft="180dp"
                             android:layout_marginTop="5dp"
                             android:layout_toRightOf="@id/shead4"
-                            android:text="19/08/2020"
-                            android:textSize="20sp"
-                            android:textColor="#000000" />
-                    </RelativeLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="12dp"
-                    android:elevation="6dp"
-                    app:cardCornerRadius="12dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#C9FFD54F"
-                        android:orientation="vertical"
-                        android:padding="8dp">
-
-                        <ImageView
-                            android:id="@+id/logo5"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/vit" />
-
-                        <TextView
-                            android:id="@+id/head5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="200dp"
-                            android:layout_marginTop="15dp"
-                            android:layout_toRightOf="@+id/logo5"
-                            android:text="VIT ENTRANCE"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                            android:textColor="#000000"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/shead5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/head5"
-                            android:layout_marginLeft="200dp"
-                            android:layout_marginTop="5dp"
-                            android:text="Exam Date:"
-                            android:textSize="20sp"
-                            android:textColor="#000000" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/head5"
-                            android:layout_marginLeft="180dp"
-                            android:layout_marginTop="5dp"
-                            android:layout_toRightOf="@id/shead5"
-                            android:text="Cancelled"
-                            android:textSize="20sp"
-                            android:textColor="#000000" />
-                    </RelativeLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="12dp"
-                    android:elevation="6dp"
-                    app:cardCornerRadius="12dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#CE4DB6AC"
-                        android:orientation="vertical"
-                        android:padding="8dp">
-
-                        <ImageView
-                            android:id="@+id/logo6"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/srm" />
-
-                        <TextView
-                            android:id="@+id/head6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="200dp"
-                            android:layout_marginTop="15dp"
-                            android:layout_toRightOf="@+id/logo6"
-                            android:text="SRM UNIVERSITY"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                            android:textColor="#000000"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/shead6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/head6"
-                            android:layout_marginLeft="180dp"
-                            android:layout_marginTop="5dp"
-                            android:text="Exam Date:"
-                            android:textSize="20sp"
-                            android:textColor="#000000" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/head6"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
-                            android:layout_toRightOf="@id/shead6"
-                            android:text="Cancelled"
-                            android:textSize="20sp"
+                            android:text="postponed"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                             android:textColor="#000000" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
