@@ -12,11 +12,22 @@
         tools:layout="@layout/fragment_splash_screen" >
         <action
             android:id="@+id/action_splashScreen_to_loginFragment"
-            app:destination="@id/loginFragment" />
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.helpmate.LoginScreen.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_indexEng"
+            app:destination="@id/indexEng" />
+    </fragment>
+    <fragment
+        android:id="@+id/indexEng"
+        android:name="com.example.helpmate.Eng.IndexEng"
+        android:label="fragment_index_eng"
+        tools:layout="@layout/fragment_index_eng" />
 </navigation>
