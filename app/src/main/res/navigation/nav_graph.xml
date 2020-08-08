@@ -125,10 +125,27 @@
         android:id="@+id/indexCbs"
         android:name="com.example.helpmate.Cbse.IndexCbs"
         android:label="fragment_index_cbse"
-        tools:layout="@layout/fragment_index_cbse" />
+        tools:layout="@layout/fragment_index_cbse" >
+        <action
+            android:id="@+id/action_indexCbs_to_sub"
+            app:destination="@id/sub"
+            app:popUpTo="@id/indexCbs" />
+        <action
+            android:id="@+id/action_indexCbs_to_xiiSubFragment"
+            app:destination="@id/xiiSubFragment"
+            app:popUpTo="@id/indexCbs" />
+    </fragment>
     <fragment
         android:id="@+id/indexIcse"
         android:name="com.example.helpmate.Icse.IndexIcse"
         android:label="fragment_index_icse"
         tools:layout="@layout/fragment_index_icse" />
+    <fragment
+        android:id="@+id/xiiSubFragment"
+        android:name="com.example.helpmate.Cbse.XiiSubFragment"
+        android:label="XiiSubFragment" />
+    <fragment
+        android:id="@+id/sub"
+        android:name="com.example.helpmate.Cbse.sub"
+        android:label="sub" />
 </navigation>
