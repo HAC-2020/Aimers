@@ -177,7 +177,31 @@
     <fragment
         android:id="@+id/sub"
         android:name="com.example.helpmate.Cbse.sub"
-        android:label="sub" />
+        android:label="sub" >
+        <action
+            android:id="@+id/action_sub_to_ninePdfHindi"
+            app:destination="@id/ninePdfHindi"
+            app:popUpTo="@id/sub" />
+        <action
+            android:id="@+id/action_sub_to_nineMathPdf"
+            app:destination="@id/nineMathPdf" />
+        <action
+            android:id="@+id/action_sub_to_ninePdfSci"
+            app:destination="@id/ninePdfSci"
+            app:popUpTo="@id/sub" />
+        <action
+            android:id="@+id/action_sub_to_ninePdfSsc"
+            app:destination="@id/ninePdfSsc"
+            app:popUpTo="@id/sub" />
+        <action
+            android:id="@+id/action_sub_to_ninePdfEng"
+            app:destination="@id/ninePdfEng"
+            app:popUpTo="@id/sub" />
+        <action
+            android:id="@+id/action_sub_to_ninePdfComp2"
+            app:destination="@id/ninePdfComp"
+            app:popUpTo="@id/sub" />
+    </fragment>
     <activity
         android:id="@+id/pdfEdpol"
         android:name="com.example.helpmate.EdPol.PdfEdpol"
@@ -207,4 +231,28 @@
         android:id="@+id/twBioPdf"
         android:name="com.example.helpmate.Cbse.twBioPdf"
         android:label="twBioPdf" />
+    <activity
+        android:id="@+id/ninePdfSsc"
+        android:name="com.example.helpmate.Cbse.ninePdfSsc"
+        android:label="ninePdfSsc" />
+    <activity
+        android:id="@+id/ninePdfSci"
+        android:name="com.example.helpmate.Cbse.ninePdfSci"
+        android:label="ninePdfSci" />
+    <activity
+        android:id="@+id/ninePdfHindi"
+        android:name="com.example.helpmate.Cbse.ninePdfHindi"
+        android:label="ninePdfHindi" />
+    <activity
+        android:id="@+id/ninePdfEng"
+        android:name="com.example.helpmate.Cbse.ninePdfEng"
+        android:label="ninePdfEng" />
+    <activity
+        android:id="@+id/ninePdfComp"
+        android:name="com.example.helpmate.Cbse.ninePdfComp"
+        android:label="ninePdfComp" />
+    <activity
+        android:id="@+id/nineMathPdf"
+        android:name="com.example.helpmate.Cbse.nineMathPdf"
+        android:label="nineMathPdf" />
 </navigation>
