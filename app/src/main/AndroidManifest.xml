@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Cbse.twPhePdf" />
+        <activity android:name=".Cbse.twBioPdf" />
+        <activity android:name=".Cbse.twChemPdf" />
+        <activity android:name=".Cbse.twMathPdf" />
+        <activity android:name=".Cbse.twPhyPdf" />
+        <activity android:name=".Cbse.TwEngPdf" />
+        <activity android:name=".EdPol.PdfEdpol" />
         <activity android:name=".Icse.VideoActivity"/>
         <activity android:name=".Cbse.VideoActivity" />
         <activity android:name=".Cbse.VideoFullScreen" />
