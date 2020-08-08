@@ -389,5 +389,78 @@
         android:id="@+id/twlv"
         android:name="com.example.helpmate.Icse.Twlv"
         android:label="fragment_twlv"
-        tools:layout="@layout/fragment_twlv" />
+        tools:layout="@layout/fragment_twlv" >
+        <action
+            android:id="@+id/action_twlv_to_twPhePdf2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/twPhePdf2"
+            app:popUpTo="@id/twlv" />
+        <action
+            android:id="@+id/action_twlv_to_twBioPdf2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/twBioPdf2"
+            app:popUpTo="@id/twlv" />
+        <action
+            android:id="@+id/action_twlv_to_twEngPdf2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/twEngPdf2"
+            app:popUpTo="@id/twlv" />
+        <action
+            android:id="@+id/action_twlv_to_twPhyPdf2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/twPhyPdf2"
+            app:popUpTo="@id/twlv" />
+        <action
+            android:id="@+id/action_twlv_to_twChemPdf2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/twChemPdf2"
+            app:popUpTo="@id/twlv" />
+        <action
+            android:id="@+id/action_twlv_to_twMathPdf2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/twMathPdf2"
+            app:popUpTo="@id/twlv" />
+    </fragment>
+    <activity
+        android:id="@+id/twPhyPdf2"
+        android:name="com.example.helpmate.Icse.twPhyPdf"
+        android:label="twPhyPdf" />
+    <activity
+        android:id="@+id/twPhePdf2"
+        android:name="com.example.helpmate.Icse.twPhePdf"
+        android:label="twPhePdf" />
+    <activity
+        android:id="@+id/twEngPdf2"
+        android:name="com.example.helpmate.Icse.TwEngPdf"
+        android:label="TwEngPdf" />
+    <activity
+        android:id="@+id/twChemPdf2"
+        android:name="com.example.helpmate.Icse.twChemPdf"
+        android:label="twChemPdf" />
+    <activity
+        android:id="@+id/twMathPdf2"
+        android:name="com.example.helpmate.Icse.twMathPdf"
+        android:label="twMathPdf" />
+    <activity
+        android:id="@+id/twBioPdf2"
+        android:name="com.example.helpmate.Icse.twBioPdf"
+        android:label="twBioPdf" />
 </navigation>

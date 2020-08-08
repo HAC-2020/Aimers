@@ -16,24 +16,24 @@ class Twlv : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_twlv, container, false)
-//        view.mths.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
-//        view.chem.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
-//        view.phy.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
-//        view.english.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
-//        view.bio.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
-//        view.phe.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
+        view.mths.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_twlv_to_twMathPdf2)
+        }
+        view.chem.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_twlv_to_twChemPdf2)
+        }
+        view.phy.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_twlv_to_twPhyPdf2)
+        }
+        view.english.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_twlv_to_twEngPdf2)
+        }
+        view.bio.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_twlv_to_twBioPdf2)
+        }
+        view.phe.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_twlv_to_twPhePdf2)
+        }
 
         return view
     }

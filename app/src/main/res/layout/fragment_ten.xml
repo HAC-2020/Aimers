@@ -211,39 +211,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                android:elevation="6dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:id="@+id/hindi"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/hindi" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Hindi"
-                        android:textColor="#212121"
-                        android:textSize="16sp" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
+                android:layout_columnWeight="0"
                 android:layout_margin="12dp"
                 android:elevation="6dp"
                 app:cardCornerRadius="12dp">
@@ -257,7 +225,7 @@
                     android:padding="16dp">
 
                     <ImageView
-                        android:layout_width="100dp"
+                        android:layout_width="128dp"
                         android:layout_height="100dp"
                         android:src="@drawable/comp" />
 
