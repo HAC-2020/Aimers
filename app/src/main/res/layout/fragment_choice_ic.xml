@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f8f8ff"
     tools:context=".Icse.ChoiceIcFragment">
 
     <FrameLayout
@@ -53,7 +54,7 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="12dp"
                     android:elevation="6dp"
-                    app:cardBackgroundColor="#f8f8ff"
+                    app:cardBackgroundColor="#ffffff"
                     app:cardCornerRadius="20dp">
 
                     <RelativeLayout
@@ -78,8 +79,8 @@
                             android:layout_marginLeft="23dp"
                             android:layout_marginTop="37dp"
                             android:text="VIDEOS"
-                            android:textSize="19sp"
                             android:textColor="#3284B6"
+                            android:textSize="19sp"
                             android:textStyle="bold" />
 
 
@@ -94,16 +95,15 @@
                     android:layout_margin="12dp"
                     android:layout_marginTop="15dp"
                     android:elevation="6dp"
-                    app:cardBackgroundColor="#f8f8ff"
+                    app:cardBackgroundColor="#ffffff"
                     app:cardCornerRadius="20dp">
 
                     <RelativeLayout
+                        android:id="@+id/doc"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
-                        android:padding="8dp"
-                        android:id="@+id/doc"
-                        >
+                        android:padding="8dp">
 
                         <ImageView
                             android:id="@+id/y"
@@ -120,8 +120,8 @@
                             android:layout_marginLeft="23dp"
                             android:layout_marginTop="37dp"
                             android:text="DOCUMENTS"
-                            android:textSize="19sp"
                             android:textColor="#3284B6"
+                            android:textSize="19sp"
                             android:textStyle="bold" />
 
 

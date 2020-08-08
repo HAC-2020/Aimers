@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f8f8ff"
     tools:context=".EdPol.ChoicePolFragment">
 
     <FrameLayout
@@ -53,7 +54,7 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="12dp"
                     android:elevation="6dp"
-                    app:cardBackgroundColor="#f8f8ff"
+                    app:cardBackgroundColor="#ffffff"
                     app:cardCornerRadius="20dp">
 
                     <RelativeLayout
@@ -78,8 +79,8 @@
                             android:layout_marginLeft="23dp"
                             android:layout_marginTop="37dp"
                             android:text="VIDEOS"
-                            android:textSize="19sp"
                             android:textColor="#3284B6"
+                            android:textSize="19sp"
                             android:textStyle="bold" />
 
 
@@ -93,7 +94,7 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="12dp"
                     android:elevation="6dp"
-                    app:cardBackgroundColor="#f8f8ff"
+                    app:cardBackgroundColor="#ffffff"
                     app:cardCornerRadius="20dp">
 
                     <RelativeLayout
@@ -118,8 +119,8 @@
                             android:layout_marginLeft="22dp"
                             android:layout_marginTop="37dp"
                             android:text="DOCUMENTS"
-                            android:textSize="19sp"
                             android:textColor="#3284B6"
+                            android:textSize="19sp"
                             android:textStyle="bold" />
 
 

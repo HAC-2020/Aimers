@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Cbse.ChoiceCbFragment">
+    tools:context=".Cbse.ChoiceCbFragment"
+    android:background="#f8f8ff">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -53,7 +54,7 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="12dp"
                     android:elevation="6dp"
-                    app:cardBackgroundColor="#f8f8ff"
+                    app:cardBackgroundColor="#ffffff"
                     app:cardCornerRadius="20dp">
 
                     <RelativeLayout
@@ -94,7 +95,7 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="12dp"
                     android:elevation="6dp"
-                    app:cardBackgroundColor="#f8f8ff"
+                    app:cardBackgroundColor="#ffffff"
                     app:cardCornerRadius="20dp">
 
                     <RelativeLayout
