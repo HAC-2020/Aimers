@@ -18,10 +18,10 @@ class ChoiceIcFragment : Fragment() {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_choice_ic, container, false)
 
-//        view.doc.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.action_choiceIcFragment_to_indexIcse)
-//        }
-//
+        view.doc.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_choiceIcFragment_to_indexIcse)
+        }
+
         view.video.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_choiceIcFragment_to_videoActivity3)
         }

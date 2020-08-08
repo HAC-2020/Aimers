@@ -70,6 +70,10 @@
             android:id="@+id/action_choiceCbFragment_to_videoActivity2"
             app:destination="@id/videoActivity2"
             app:popUpTo="@id/choiceCbFragment" />
+        <action
+            android:id="@+id/action_choiceCbFragment_to_indexCbs"
+            app:destination="@id/indexCbs"
+            app:popUpTo="@id/choiceCbFragment" />
     </fragment>
     <fragment
         android:id="@+id/choicePolFragment"
@@ -94,6 +98,10 @@
             android:id="@+id/action_choiceIcFragment_to_videoActivity3"
             app:destination="@id/videoActivity3"
             app:popUpTo="@id/choiceIcFragment" />
+        <action
+            android:id="@+id/action_choiceIcFragment_to_indexIcse"
+            app:destination="@id/indexIcse"
+            app:popUpTo="@id/choiceIcFragment" />
     </fragment>
     <fragment
         android:id="@+id/indexEdpol"
@@ -113,4 +121,14 @@
         android:id="@+id/videoActivity3"
         android:name="com.example.helpmate.Icse.VideoActivity"
         android:label="VideoActivity" />
+    <fragment
+        android:id="@+id/indexCbs"
+        android:name="com.example.helpmate.Cbse.IndexCbs"
+        android:label="fragment_index_cbse"
+        tools:layout="@layout/fragment_index_cbse" />
+    <fragment
+        android:id="@+id/indexIcse"
+        android:name="com.example.helpmate.Icse.IndexIcse"
+        android:label="fragment_index_icse"
+        tools:layout="@layout/fragment_index_icse" />
 </navigation>

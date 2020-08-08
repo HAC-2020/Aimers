@@ -18,9 +18,9 @@ class ChoiceCbFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_choice_cb, container, false)
-//        view.docs.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.action_choiceCbFragment_to_indexCbs)
-//        }
+        view.docs.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_choiceCbFragment_to_indexCbs)
+        }
         view.video.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_choiceCbFragment_to_videoActivity2)
         }
