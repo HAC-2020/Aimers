@@ -18,9 +18,9 @@ class IndexEdpol : Fragment() {
 
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_index_edpol, container, false)
-//        view.id1.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.action_indexEdpol_to_pdfEdpol)
-//        }
+        view.id1.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_indexEdpol_to_pdfEdpol)
+        }
         return view
     }
 

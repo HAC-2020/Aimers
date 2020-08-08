@@ -225,7 +225,7 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="12dp"
                     android:elevation="6dp"
-                    app:cardBackgroundColor="#CDBA68C8"
+                    app:cardBackgroundColor="#b968c7"
                     app:cardCornerRadius="12dp">
 
                     <RelativeLayout

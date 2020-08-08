@@ -107,7 +107,12 @@
         android:id="@+id/indexEdpol"
         android:name="com.example.helpmate.EdPol.IndexEdpol"
         android:label="fragment_index_edpol"
-        tools:layout="@layout/fragment_index_edpol" />
+        tools:layout="@layout/fragment_index_edpol" >
+        <action
+            android:id="@+id/action_indexEdpol_to_pdfEdpol"
+            app:destination="@id/pdfEdpol"
+            app:popUpTo="@id/indexEdpol" />
+    </fragment>
     <activity
         android:id="@+id/videoActivity"
         android:name="com.example.helpmate.EdPol.VideoActivity"
@@ -148,4 +153,9 @@
         android:id="@+id/sub"
         android:name="com.example.helpmate.Cbse.sub"
         android:label="sub" />
+    <activity
+        android:id="@+id/pdfEdpol"
+        android:name="com.example.helpmate.EdPol.PdfEdpol"
+        android:label="activity_pdf_edpol"
+        tools:layout="@layout/activity_pdf_edpol" />
 </navigation>

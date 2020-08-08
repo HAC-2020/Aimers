@@ -56,7 +56,7 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#CDBA68C8"
+                        android:background="#b968c7"
                         android:orientation="vertical"
                         android:padding="8dp">
 
@@ -86,8 +86,8 @@
                             android:layout_marginLeft="115dp"
                             android:layout_marginTop="5dp"
                             android:text="Exam Date:"
-                            android:textSize="14sp"
-                            android:textColor="#000000" />
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -97,8 +97,8 @@
                             android:layout_marginTop="5dp"
                             android:layout_toRightOf="@id/shead1"
                             android:text="To be Announce"
-                            android:textSize="14sp"
-                            android:textColor="#000000" />
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 
