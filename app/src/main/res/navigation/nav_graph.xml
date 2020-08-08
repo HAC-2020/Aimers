@@ -148,7 +148,32 @@
     <fragment
         android:id="@+id/xiiSubFragment"
         android:name="com.example.helpmate.Cbse.XiiSubFragment"
-        android:label="XiiSubFragment" />
+        android:label="XiiSubFragment" >
+        <action
+            android:id="@+id/action_xiiSubFragment_to_twBioPdf"
+            app:destination="@id/twBioPdf"
+            app:popUpTo="@id/xiiSubFragment" />
+        <action
+            android:id="@+id/action_xiiSubFragment_to_twPhyPdf"
+            app:destination="@id/twPhyPdf"
+            app:popUpTo="@id/xiiSubFragment" />
+        <action
+            android:id="@+id/action_xiiSubFragment_to_twEngPdf"
+            app:destination="@id/twEngPdf"
+            app:popUpTo="@id/xiiSubFragment" />
+        <action
+            android:id="@+id/action_xiiSubFragment_to_twMathPdf"
+            app:destination="@id/twMathPdf"
+            app:popUpTo="@id/xiiSubFragment" />
+        <action
+            android:id="@+id/action_xiiSubFragment_to_twChemPdf"
+            app:destination="@id/twChemPdf"
+            app:popUpTo="@id/xiiSubFragment" />
+        <action
+            android:id="@+id/action_xiiSubFragment_to_twPhePdf"
+            app:destination="@id/twPhePdf"
+            app:popUpTo="@id/xiiSubFragment" />
+    </fragment>
     <fragment
         android:id="@+id/sub"
         android:name="com.example.helpmate.Cbse.sub"
@@ -158,4 +183,28 @@
         android:name="com.example.helpmate.EdPol.PdfEdpol"
         android:label="activity_pdf_edpol"
         tools:layout="@layout/activity_pdf_edpol" />
+    <activity
+        android:id="@+id/twEngPdf"
+        android:name="com.example.helpmate.Cbse.TwEngPdf"
+        android:label="TwEngPdf" />
+    <activity
+        android:id="@+id/twChemPdf"
+        android:name="com.example.helpmate.Cbse.twChemPdf"
+        android:label="twChemPdf" />
+    <activity
+        android:id="@+id/twPhyPdf"
+        android:name="com.example.helpmate.Cbse.twPhyPdf"
+        android:label="twPhyPdf" />
+    <activity
+        android:id="@+id/twPhePdf"
+        android:name="com.example.helpmate.Cbse.twPhePdf"
+        android:label="twPhePdf" />
+    <activity
+        android:id="@+id/twMathPdf"
+        android:name="com.example.helpmate.Cbse.twMathPdf"
+        android:label="twMathPdf" />
+    <activity
+        android:id="@+id/twBioPdf"
+        android:name="com.example.helpmate.Cbse.twBioPdf"
+        android:label="twBioPdf" />
 </navigation>
