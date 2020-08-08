@@ -24,26 +24,50 @@
         <action
             android:id="@+id/action_loginFragment_to_indexEng"
             app:destination="@id/indexEng"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/loginFragment" />
         <action
             android:id="@+id/action_loginFragment_to_indexMed"
             app:destination="@id/indexMed"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/loginFragment" />
         <action
             android:id="@+id/action_loginFragment_to_indexLaw"
             app:destination="@id/indexLaw"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/loginFragment" />
         <action
             android:id="@+id/action_loginFragment_to_choicePolFragment"
             app:destination="@id/choicePolFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/loginFragment" />
         <action
             android:id="@+id/action_loginFragment_to_choiceCbFragment"
             app:destination="@id/choiceCbFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/loginFragment" />
         <action
             android:id="@+id/action_loginFragment_to_choiceIcFragment"
             app:destination="@id/choiceIcFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/loginFragment" />
     </fragment>
     <fragment
@@ -69,9 +93,17 @@
         <action
             android:id="@+id/action_choiceCbFragment_to_videoActivity2"
             app:destination="@id/videoActivity2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/choiceCbFragment" />
         <action
             android:id="@+id/action_choiceCbFragment_to_indexCbs"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/indexCbs"
             app:popUpTo="@id/choiceCbFragment" />
     </fragment>
@@ -82,10 +114,18 @@
         tools:layout="@layout/fragment_choice_pol" >
         <action
             android:id="@+id/action_choicePolFragment_to_indexEdpol"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/indexEdpol"
             app:popUpTo="@id/choicePolFragment" />
         <action
             android:id="@+id/action_choicePolFragment_to_videoActivity"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/videoActivity"
             app:popUpTo="@id/choicePolFragment" />
     </fragment>
@@ -96,10 +136,18 @@
         tools:layout="@layout/fragment_choice_ic" >
         <action
             android:id="@+id/action_choiceIcFragment_to_videoActivity3"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/videoActivity3"
             app:popUpTo="@id/choiceIcFragment" />
         <action
             android:id="@+id/action_choiceIcFragment_to_indexIcse"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/indexIcse"
             app:popUpTo="@id/choiceIcFragment" />
     </fragment>
@@ -111,6 +159,10 @@
         <action
             android:id="@+id/action_indexEdpol_to_pdfEdpol"
             app:destination="@id/pdfEdpol"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/indexEdpol" />
     </fragment>
     <activity
@@ -133,10 +185,18 @@
         tools:layout="@layout/fragment_index_cbse" >
         <action
             android:id="@+id/action_indexCbs_to_sub"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/sub"
             app:popUpTo="@id/indexCbs" />
         <action
             android:id="@+id/action_indexCbs_to_xiiSubFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/xiiSubFragment"
             app:popUpTo="@id/indexCbs" />
     </fragment>
@@ -151,27 +211,51 @@
         android:label="XiiSubFragment" >
         <action
             android:id="@+id/action_xiiSubFragment_to_twBioPdf"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/twBioPdf"
             app:popUpTo="@id/xiiSubFragment" />
         <action
             android:id="@+id/action_xiiSubFragment_to_twPhyPdf"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/twPhyPdf"
             app:popUpTo="@id/xiiSubFragment" />
         <action
             android:id="@+id/action_xiiSubFragment_to_twEngPdf"
             app:destination="@id/twEngPdf"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/xiiSubFragment" />
         <action
             android:id="@+id/action_xiiSubFragment_to_twMathPdf"
             app:destination="@id/twMathPdf"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/xiiSubFragment" />
         <action
             android:id="@+id/action_xiiSubFragment_to_twChemPdf"
             app:destination="@id/twChemPdf"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/xiiSubFragment" />
         <action
             android:id="@+id/action_xiiSubFragment_to_twPhePdf"
             app:destination="@id/twPhePdf"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/xiiSubFragment" />
     </fragment>
     <fragment
@@ -180,26 +264,50 @@
         android:label="sub" >
         <action
             android:id="@+id/action_sub_to_ninePdfHindi"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/ninePdfHindi"
             app:popUpTo="@id/sub" />
         <action
             android:id="@+id/action_sub_to_nineMathPdf"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:destination="@id/nineMathPdf" />
         <action
             android:id="@+id/action_sub_to_ninePdfSci"
             app:destination="@id/ninePdfSci"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/sub" />
         <action
             android:id="@+id/action_sub_to_ninePdfSsc"
             app:destination="@id/ninePdfSsc"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/sub" />
         <action
             android:id="@+id/action_sub_to_ninePdfEng"
             app:destination="@id/ninePdfEng"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/sub" />
         <action
             android:id="@+id/action_sub_to_ninePdfComp2"
             app:destination="@id/ninePdfComp"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/sub" />
     </fragment>
     <activity
