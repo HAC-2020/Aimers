@@ -4,33 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@drawable/imga"
     tools:context=".splashScreen.SplashScreen">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginBottom="395dp"
+        android:fontFamily="@font/pacifico"
+        android:text="Help"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#FF7F27"
+        android:textSize="70sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="395dp"
-        android:layout_height="491dp"
-        android:layout_marginTop="190dp"
-        android:src="@drawable/spla"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="395dp"
+        android:fontFamily="@font/pacifico"
+        android:text="Mate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#00A8F3"
+        android:textSize="70sp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="396dp"
-        android:layout_height="195dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginLeft="6dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginRight="9dp"
-        android:src="@drawable/wel"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
