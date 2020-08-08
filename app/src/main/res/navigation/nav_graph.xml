@@ -204,7 +204,24 @@
         android:id="@+id/indexIcse"
         android:name="com.example.helpmate.Icse.IndexIcse"
         android:label="fragment_index_icse"
-        tools:layout="@layout/fragment_index_icse" />
+        tools:layout="@layout/fragment_index_icse" >
+        <action
+            android:id="@+id/action_indexIcse_to_twlv"
+            app:destination="@id/twlv"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/indexIcse" />
+        <action
+            android:id="@+id/action_indexIcse_to_ten"
+            app:destination="@id/ten"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/indexIcse" />
+    </fragment>
     <fragment
         android:id="@+id/xiiSubFragment"
         android:name="com.example.helpmate.Cbse.XiiSubFragment"
@@ -363,4 +380,14 @@
         android:id="@+id/nineMathPdf"
         android:name="com.example.helpmate.Cbse.nineMathPdf"
         android:label="nineMathPdf" />
+    <fragment
+        android:id="@+id/ten"
+        android:name="com.example.helpmate.Icse.ten"
+        android:label="fragment_ten"
+        tools:layout="@layout/fragment_ten" />
+    <fragment
+        android:id="@+id/twlv"
+        android:name="com.example.helpmate.Icse.Twlv"
+        android:label="fragment_twlv"
+        tools:layout="@layout/fragment_twlv" />
 </navigation>
