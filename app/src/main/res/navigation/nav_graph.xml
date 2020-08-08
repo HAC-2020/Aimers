@@ -75,6 +75,10 @@
             android:id="@+id/action_choicePolFragment_to_indexEdpol"
             app:destination="@id/indexEdpol"
             app:popUpTo="@id/choicePolFragment" />
+        <action
+            android:id="@+id/action_choicePolFragment_to_videoActivity"
+            app:destination="@id/videoActivity"
+            app:popUpTo="@id/choicePolFragment" />
     </fragment>
     <fragment
         android:id="@+id/choiceIcFragment"
@@ -86,4 +90,9 @@
         android:name="com.example.helpmate.EdPol.IndexEdpol"
         android:label="fragment_index_edpol"
         tools:layout="@layout/fragment_index_edpol" />
+    <activity
+        android:id="@+id/videoActivity"
+        android:name="com.example.helpmate.EdPol.VideoActivity"
+        android:label="activity_video"
+        tools:layout="@layout/activity_video" />
 </navigation>
