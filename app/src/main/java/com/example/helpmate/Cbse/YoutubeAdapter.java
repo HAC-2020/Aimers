@@ -37,17 +37,6 @@ public class YoutubeAdapter extends RecyclerView.Adapter<YoutubeViewHolder> {
         final DataSetList current = arrayList.get(i);
 
         youtubeViewHolder.webView.loadUrl(current.getLink());
-        youtubeViewHolder.button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(context, VideoFullScreen.class);
-                i.putExtra("link",current.getLink());
-                context.startActivity(i);
-
-
-            }
-        });
-
 
     }
 

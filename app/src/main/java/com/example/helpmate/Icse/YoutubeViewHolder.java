@@ -21,7 +21,6 @@ public class YoutubeViewHolder extends RecyclerView.ViewHolder {
     public YoutubeViewHolder(@NonNull View itemView) {
         super(itemView);
         webView = itemView.findViewById(R.id.video_view);
-        button = itemView.findViewById(R.id.fullscreen);
         webView.setWebViewClient(new WebViewClient());
         webView.setWebChromeClient(new WebChromeClient());
         webView.getSettings().setJavaScriptEnabled(true);

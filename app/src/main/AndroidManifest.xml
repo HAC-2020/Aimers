@@ -35,10 +35,7 @@
         <activity android:name=".EdPol.PdfEdpol" />
         <activity android:name=".Icse.VideoActivity"/>
         <activity android:name=".Cbse.VideoActivity" />
-        <activity android:name=".Cbse.VideoFullScreen" />
-        <activity android:name=".Icse.VideoFullScreen" />
         <activity android:name=".EdPol.VideoActivity" />
-        <activity android:name=".EdPol.VideoFullScreen"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
