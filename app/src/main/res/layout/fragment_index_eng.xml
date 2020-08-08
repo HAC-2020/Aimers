@@ -287,7 +287,7 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#C9FFD54F"
+                        android:background="#FFD54F"
                         android:orientation="vertical"
                         android:padding="8dp">
 
@@ -345,7 +345,7 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#CE4DB6AC"
+                        android:background="#4DB6AC"
                         android:orientation="vertical"
                         android:padding="8dp">
 
