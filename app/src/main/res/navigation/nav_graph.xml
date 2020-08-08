@@ -384,7 +384,48 @@
         android:id="@+id/ten"
         android:name="com.example.helpmate.Icse.ten"
         android:label="fragment_ten"
-        tools:layout="@layout/fragment_ten" />
+        tools:layout="@layout/fragment_ten" >
+        <action
+            android:id="@+id/action_ten_to_nineMathPdf2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/nineMathPdf2"
+            app:popUpTo="@id/ten" />
+        <action
+            android:id="@+id/action_ten_to_ninePdfSsc2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/ninePdfSsc2"
+            app:popUpTo="@id/ten" />
+        <action
+            android:id="@+id/action_ten_to_ninePdfComp2"
+            app:destination="@id/ninePdfComp2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/ten" />
+        <action
+            android:id="@+id/action_ten_to_ninePdfSci2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/ninePdfSci2"
+            app:popUpTo="@id/ten" />
+        <action
+            android:id="@+id/action_ten_to_ninePdfEng2"
+            app:destination="@id/ninePdfEng2"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/ten" />
+    </fragment>
     <fragment
         android:id="@+id/twlv"
         android:name="com.example.helpmate.Icse.Twlv"
@@ -463,4 +504,24 @@
         android:id="@+id/twBioPdf2"
         android:name="com.example.helpmate.Icse.twBioPdf"
         android:label="twBioPdf" />
+    <activity
+        android:id="@+id/ninePdfSsc2"
+        android:name="com.example.helpmate.Icse.ninePdfSsc"
+        android:label="ninePdfSsc" />
+    <activity
+        android:id="@+id/ninePdfSci2"
+        android:name="com.example.helpmate.Icse.ninePdfSci"
+        android:label="ninePdfSci" />
+    <activity
+        android:id="@+id/ninePdfEng2"
+        android:name="com.example.helpmate.Icse.ninePdfEng"
+        android:label="ninePdfEng" />
+    <activity
+        android:id="@+id/ninePdfComp2"
+        android:name="com.example.helpmate.Icse.ninePdfComp"
+        android:label="ninePdfComp" />
+    <activity
+        android:id="@+id/nineMathPdf2"
+        android:name="com.example.helpmate.Icse.nineMathPdf"
+        android:label="nineMathPdf" />
 </navigation>

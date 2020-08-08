@@ -16,24 +16,21 @@ class ten : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_ten, container, false)
-//        view.maths.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
-//        view.sci.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
-//        view.ssc.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
-//        view.english.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
-//        view.hindi.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
-//        view.comp.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.)
-//        }
+        view.maths.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_ten_to_nineMathPdf2)
+        }
+        view.sci.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_ten_to_ninePdfSsc2)
+        }
+        view.ssc.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_ten_to_ninePdfSci2)
+        }
+        view.english.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_ten_to_ninePdfEng2)
+        }
+        view.comp.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_ten_to_ninePdfComp2)
+        }
 
         return view
     }

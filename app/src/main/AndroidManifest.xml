@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Icse.nineMathPdf" />
+        <activity android:name=".Icse.ninePdfSsc" />
+        <activity android:name=".Icse.ninePdfSci" />
+        <activity android:name=".Icse.ninePdfEng" />
+        <activity android:name=".Icse.ninePdfComp" />
         <activity android:name=".Icse.twBioPdf" />
         <activity android:name=".Icse.twChemPdf" />
         <activity android:name=".Icse.twMathPdf" />
