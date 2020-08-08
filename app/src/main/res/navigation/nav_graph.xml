@@ -65,7 +65,12 @@
         android:id="@+id/choiceCbFragment"
         android:name="com.example.helpmate.Cbse.ChoiceCbFragment"
         android:label="fragment_choice_cb"
-        tools:layout="@layout/fragment_choice_cb" />
+        tools:layout="@layout/fragment_choice_cb" >
+        <action
+            android:id="@+id/action_choiceCbFragment_to_videoActivity2"
+            app:destination="@id/videoActivity2"
+            app:popUpTo="@id/choiceCbFragment" />
+    </fragment>
     <fragment
         android:id="@+id/choicePolFragment"
         android:name="com.example.helpmate.EdPol.ChoicePolFragment"
@@ -84,7 +89,12 @@
         android:id="@+id/choiceIcFragment"
         android:name="com.example.helpmate.Icse.ChoiceIcFragment"
         android:label="fragment_choice_ic"
-        tools:layout="@layout/fragment_choice_ic" />
+        tools:layout="@layout/fragment_choice_ic" >
+        <action
+            android:id="@+id/action_choiceIcFragment_to_videoActivity3"
+            app:destination="@id/videoActivity3"
+            app:popUpTo="@id/choiceIcFragment" />
+    </fragment>
     <fragment
         android:id="@+id/indexEdpol"
         android:name="com.example.helpmate.EdPol.IndexEdpol"
@@ -95,4 +105,12 @@
         android:name="com.example.helpmate.EdPol.VideoActivity"
         android:label="activity_video"
         tools:layout="@layout/activity_video" />
+    <activity
+        android:id="@+id/videoActivity2"
+        android:name="com.example.helpmate.Cbse.VideoActivity"
+        android:label="VideoActivity" />
+    <activity
+        android:id="@+id/videoActivity3"
+        android:name="com.example.helpmate.Icse.VideoActivity"
+        android:label="VideoActivity" />
 </navigation>

@@ -22,9 +22,9 @@ class ChoiceIcFragment : Fragment() {
 //            Navigation.findNavController(view).navigate(R.id.action_choiceIcFragment_to_indexIcse)
 //        }
 //
-//        view.video.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.action_choiceIcFragment_to_videoActivity3)
-//        }
+        view.video.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_choiceIcFragment_to_videoActivity3)
+        }
 
         return view
     }

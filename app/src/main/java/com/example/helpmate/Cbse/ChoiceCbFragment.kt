@@ -21,9 +21,9 @@ class ChoiceCbFragment : Fragment() {
 //        view.docs.setOnClickListener {
 //            Navigation.findNavController(view).navigate(R.id.action_choiceCbFragment_to_indexCbs)
 //        }
-//        view.video.setOnClickListener {
-//            Navigation.findNavController(view).navigate(R.id.action_choiceCbFragment_to_videoActivity2)
-//        }
+        view.video.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_choiceCbFragment_to_videoActivity2)
+        }
         return view
     }
 
