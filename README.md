@@ -68,3 +68,8 @@ Due to increase in cases of COVID 19 cases, the dates of competitive exams are c
     <td><img src="https://user-images.githubusercontent.com/61552810/89718217-e9648b80-d9da-11ea-9310-d7666e789fad.jpeg" width=270 height=480></td>
   </tr>
  </table>
+
+## License & Copyright
+Copyright (c) 2020 Pranshu Pandey
+
+Licensed under the [Mit License](https://github.com/HAC-2020/Aimers/blob/master/License)
