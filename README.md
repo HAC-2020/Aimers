@@ -22,9 +22,6 @@ If you use HelpMate, it prevents you from the hectic task of going through sever
 Our app provides them with official documents and explanation videos that will help them to remove their doubts.
 Due to increase in cases of COVID 19 cases, the dates of competitive exams are constantly changing. We’ll keep a close eye on the updates of these exam dates and let our users know the latest changes at the speed of lightening. 
 
-
-> include terms/tags that can be searched
-
 <p>Application is available here:-</p>
 <p></p>
 <p><a href="https://drive.google.com/file/d/12H5oHUxuQaRF6qEzm-NPzT__FL0wGR23/view?usp=sharing">Download Apk file</a></p>
