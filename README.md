@@ -10,7 +10,8 @@
 [![ABCD](https://img.shields.io/badge/App-Sample-yellow)](https://img.shields.io/badge/App-Sample-yellow) 
 [![ABCD](https://img.shields.io/badge/repo%20size-6.02MB-blue)](https://img.shields.io/badge/repo%20size-6.02MB-blue) 
 [![ABCD](https://img.shields.io/badge/Min%20API-21-blue)](https://img.shields.io/badge/Min%20API-21-blue/) 
-[![ABCD](https://img.shields.io/badge/Max%20API-29-red)](https://img.shields.io/badge/Max%20API-29-red) <p></p>
+[![ABCD](https://img.shields.io/badge/Max%20API-29-red)](https://img.shields.io/badge/Max%20API-29-red) 
+[![ABCD](https://img.shields.io/badge/License-MIT%20License-orange)](https://img.shields.io/badge/License-MIT%20License-orange) <p></p>
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/HAC-2020/Aimers)
 [![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](http://ForTheBadge.com)
 
